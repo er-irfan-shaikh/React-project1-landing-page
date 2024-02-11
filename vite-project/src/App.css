@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.wrapper{
+    margin-inline: 3rem;
+    margin-top: 1rem;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.links li {
+  list-style: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.loginButton {
+  background-color: #d01c28;
+  color: white;
+  outline: none;
+  border: none;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
+
+section{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+ 
+}
+.left{
+  max-width: 530px;
+}
+section h1{
+    /* white-space: pre; */
+    font-size: 5rem;
+    /* overflow-wrap: break-word; */
+    /* word-break: break-all; */
+
+}
+
+section p{
+    font-size: 1.1rem;
+    margin-block: 2.2rem;
+}
+
+section button{
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    padding-inline: 1.3rem;
+   
+    outline: none;
+    border: none;
+}
+
+.selection{
+    display: flex;
+    gap: 2rem;
+}
+.Shop{
+    color: white;
+    background-color: #d01c28;
+}
+
+.Category{
+    border: 1px solid black;
+}
+
+.ecom{
+    margin-top: 1rem;
+}
+.icon{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
